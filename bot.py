@@ -38,8 +38,6 @@ class Bot(Client):
         b_users, b_chats = await db.get_banned()
         temp.BANNED_USERS = b_users
         temp.BANNED_CHATS = b_chats 
-         await super().start()
-  File "/opt/render/project/src/.venv/lib/python3.7/site-packages/pyrogram/methods/utilities/start.py"
         await super().start()
         await Media.ensure_indexes()
         me = await self.get_me()
