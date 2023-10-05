@@ -39,6 +39,7 @@ class Bot(Client):
         temp.BANNED_USERS = b_users
         temp.BANNED_CHATS = b_chats        
         await super().start()
+  File "/opt/render/project/src/.venv/lib/python3.7/site-packages/pyrogram/methods/utilities/start.py"
         await Media.ensure_indexes()
         me = await self.get_me()
         temp.U_NAME = me.username
@@ -77,9 +78,11 @@ class Bot(Client):
                 yield message
                 current += 1
 
-
+run(self.start())
+  File "/usr/local/lib/python3.7/asyncio/base_events.py"
         
 Bot().run()
+  File "/opt/render/project/src/.venv/lib/python3.7/site-packages/pyrogram/methods/utilities/run.py"
 
 
 
