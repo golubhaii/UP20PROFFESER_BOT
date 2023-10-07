@@ -77,11 +77,8 @@ class Bot(Client):
                 yield message
                 current += 1
 
-run(self.start())
-  File "/usr/local/lib/python3.7/asyncio/base_events.py"
-        
-Bot().run()
-  File "/opt/render/project/src/.venv/lib/python3.7/site-packages/pyrogram/methods/utilities/run.py"
+app = Bot()
+app.run()
 
 
 
